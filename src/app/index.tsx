@@ -8,7 +8,7 @@ export default function Inicio() {
     <ScrollView style={estilos.contenedor} contentContainerStyle={estilos.contenido}>
       <View style={estilos.avatarContenedor}>
         <Ionicons name="person-circle" size={100} color="#2563eb" />
-        <Text style={estilos.nombre}>Juan Sebastian Ángulo Pérez</Text>
+        <Text style={estilos.nombre}>Maria Camila Niño Salamcanca</Text>
         <Text style={estilos.profesion}>Tecnólogo en ADSO</Text>
       </View>
 
@@ -26,14 +26,14 @@ export default function Inicio() {
           textoBoton="Enviar Correo"
           nombreIcono="mail"
           colorBoton="#e11d48"
-          onPress={() => Alert.alert("Correo", "juansebastiananguloperez1@gmail.com")}
+          onPress={() => Alert.alert("Correo", "mariacamilaninosalamanca@gmail.com")}
         />
         
         <MiBoton 
           textoBoton="Llamar"
           nombreIcono="call"
           colorBoton="#2563eb"
-          onPress={() => Alert.alert("Teléfono", "Llamando al +57 3011224474...")}
+          onPress={() => Alert.alert("Teléfono", "Llamando al +57 3123456789...")}
         />
 
         <MiBoton 
@@ -47,7 +47,7 @@ export default function Inicio() {
           textoBoton="Repositorio Git"
           nombreIcono="logo-github"
           colorBoton="#334155"
-          onPress={() => Alert.alert("GitHub", "https://github.com/sebastian07A/MovilAppHV.git")}
+          onPress={() => Alert.alert("GitHub", "https://github.com/CamilaN07/ExpoAppYO.git")}
         />
       </View>
     </ScrollView>
